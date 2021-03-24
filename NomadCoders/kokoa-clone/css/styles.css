@@ -1,24 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import "reset.css";
+@import "components/variables.css";
 
 /* Components */
-@import "components/variables.css";
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/user-component.css";
 
 
 /* Screens */
 @import "screens/login.css";
-
+@import "screens/friends.css";
 
 body {
   font-family: 'Ubuntu', sans-serif;
+
+}
+
+header {
+  display: flex;
+  justify-content:space-between;
+  align-items: baseline;
+  position:relative;
+  padding: 0px 20px;
+  top:55px;
+  font-size:15px;
+  opacity: 90%;
 }
 
 
-
-
-
+.screen-header__title {
+  font-size:33px;
+  font-weight:600;
+}
+.screen-header__icon {
+  margin-left:var(--horizontal-space);
+}
 
 
 
