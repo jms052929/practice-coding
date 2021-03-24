@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import "reset.css";
+
+/* Components */
+@import "components/variables.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+
+/* Screens */
+@import "screens/login.css";
+
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
