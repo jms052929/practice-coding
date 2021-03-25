@@ -3,3 +3,11 @@
   --toss-color:#1F2F98;
   --horizontal-space:25px;
 }
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background-color:red;
+  border-radius: 3px;
+  position:absolute;
+}
