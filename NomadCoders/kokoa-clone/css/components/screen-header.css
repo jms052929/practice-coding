@@ -9,8 +9,9 @@
 }
 
 .screen-header__title {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 600;
+  opacity:0.9;
 }
 
 

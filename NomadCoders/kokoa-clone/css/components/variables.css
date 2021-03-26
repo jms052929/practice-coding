@@ -2,6 +2,7 @@
   --base-color:#4ADEDE;
   --toss-color:#1F2F98;
   --horizontal-space:25px;
+  --grey: rgba(0,0,0,0.3);
 }
 
 .dot {
@@ -11,3 +12,12 @@
   border-radius: 3px;
   position:absolute;
 }
+
+.divider {
+  width: 1.8px;
+  height: 15px;
+  background-color: var(--grey);
+  opacity:0.5;
+  margin: 0 5px;
+}
+
