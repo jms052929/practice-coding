@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
-  padding-top:60px;
-  margin-bottom:35px;
+  padding-top:50px;
+  margin-bottom:25px;
 
 }
 
@@ -14,13 +14,11 @@
   opacity:0.9;
 }
 
-
-.screen-header__icons span {
-  margin-left: 22px;
-  font-size:18px;
-  opacity:0.9;
-  position:relative;
-
-
+.screen-header__icons-icon{
+  padding-left:25px;
+  position:relative
 }
 
+.screen-header__icons-icon i{
+  font-size:25px;
+}

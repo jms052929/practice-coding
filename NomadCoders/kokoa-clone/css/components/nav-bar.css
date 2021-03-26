@@ -1,6 +1,6 @@
-body {
+/*body {
   height:1000vh;
-}
+}*/
 
 .status-bar {
   position:fixed;
@@ -40,6 +40,7 @@ body {
 .nav__new {
   position:absolute;
   left:35px;
+  bottom:20px;
 }
 
 

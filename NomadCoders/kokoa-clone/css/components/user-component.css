@@ -7,6 +7,10 @@
   justify-content:space-between;
 }
 
+.user-component__column {
+  display:flex;
+  align-items: center;
+}
 
 .user-component__column div{
   padding-bottom:10px;
@@ -26,10 +30,11 @@
   font-weight: 600;
   font-size: 22px;
   margin-left:-3px;
+  margin-bottom:4px;
 }
 
 .user-component__subtitle {
-  margin-top: 8px;
+  margin-top: 4px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -58,7 +63,7 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 1);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
