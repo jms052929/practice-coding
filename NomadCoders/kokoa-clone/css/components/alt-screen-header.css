@@ -1,0 +1,17 @@
+.alt-header {
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding :40px 20px;
+}
+
+.alt-header__column {
+  opacity:0.9;
+}
+
+.alt-header__column-title {
+  font-size:24px;
+  opacity: 0.9;
+  font-weight:600;
+}
+

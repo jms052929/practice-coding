@@ -39,3 +39,15 @@
 .second-row {
   justify-content:start;
 }
+
+.suggestions h6 {
+  border-top: 1px solid rgba(0,0,0, 0.13);
+  padding: 25px 0;
+  font-weight:600;
+  opacity:0.7;
+}
+.suggestions__content img {
+  width:55px;
+  height:55px;
+  border-radius:7px;
+}

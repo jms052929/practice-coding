@@ -21,5 +21,20 @@
 
 .icon-row__icon i {
   font-size:30px;
-  padding-bottom:10px;
+  padding-bottom:20px;
+}
+
+.icon-row__icon img {
+  width:55px;
+  height:55px;
+  border-radius:7px;
+  padding-bottom: 10px;
+  
+}
+
+
+
+
+.none {
+  margin: 0px 25px;
 }

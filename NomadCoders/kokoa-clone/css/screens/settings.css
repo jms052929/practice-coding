@@ -1,0 +1,23 @@
+.setting_list__column {
+  display:flex;
+  padding: 20px 0;
+  align-items: center;
+  border-bottom:1px solid rgba(0,0,0,0.06);
+  justify-content:space-between;
+}
+
+.setting_list__column i {
+  opacity: 0.75;
+  font-size:20px;
+  padding-right: 15px;
+}
+
+.setting_list__column span{
+  font-size:22px; 
+}
+
+.setting-list__setting:last-child {
+  font-size:18px;
+  font-weight:600;
+  opacity:0.35;
+}
